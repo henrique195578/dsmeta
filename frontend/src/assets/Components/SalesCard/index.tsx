@@ -27,11 +27,9 @@ function SalesCard() {
     const [sales, setSales] = useState<Sale[]>([]);
 
     useEffect(() => {
-/* DATA MINIMA = "dmin"*/
+        /* DATA MINIMA = "dmin"*/
         const dmin = minDate.toISOString().slice(0, 10);
         const dmax = maxDate.toISOString().slice(0, 10);
-
-        console.log(dmin);
 
         axios.get(`${BASE_URL}/sales?minDate=${dmin}&maxDate=${dmax}`)
             .then(response => {
@@ -90,8 +88,8 @@ function SalesCard() {
                                     <td className="show992">{sale.deals}</td>
                                     <td>R$ {sale.amount.toFixed(2)}</td>
                                     <td>
-                                        {/* Realizado import do "icones botoes" */}
-                                        <NotificationButton />
+                                        {/* Realizado import do "icones botoes"e os botoes estao associados a cada vendas */}
+                                        <NotificationButton saleId={sale.id} />
                                     </td>
                                 </tr>
                             )
