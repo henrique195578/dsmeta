@@ -18,13 +18,6 @@ Semana Spring React - Evento promovido pela escola DevSuperior.
 A aplicação consiste em fazer uma busca páginada de consulta de vendas em um dado intervalo de datas, e 
 poderá notificar via SMS os dados dos melhores vendedores. Vamos construir o back end com Java e Spring, e o front end com React.
 
-<br />
-
-### :space_invader: 
-
-<h1 style="padding: 50px; background: #333333;">
-    <img alt="modelo conceitual dsvendas" title="#modelo conceitual dsvendas" src="https://raw.githubusercontent.com/devsuperior/bds-assets/main/sds/dsmovie-dominio.png" width=480px/>
-</h1>
 
 <br />
 
