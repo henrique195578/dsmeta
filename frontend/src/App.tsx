@@ -1,12 +1,13 @@
 /* Import para que as */
-
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from "./assets/Components/Header";
 import SalesCard from "./assets/Components/SalesCard";
 
 function App() {
     return (
         <>
-
+            <ToastContainer />
             <Header />
             <main>
                 <section id="sales">
@@ -23,4 +24,3 @@ function App() {
 }
 
 export default App;
- 

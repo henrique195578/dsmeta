@@ -1,5 +1,6 @@
 /* Criado expressao "icone" somente para pegar a imagem */
 import axios from 'axios';
+import { toast } from 'react-toastify';
 import icon from '../../../assets/img/notification-icon.svg';
 import { BASE_URL } from '../../../utils/request';
 
@@ -9,16 +10,16 @@ type Props = {
     saleId: number;
 }
 
-function handleClick(id : number){
+function handleClick(id: number) {
 
     axios(`${BASE_URL}/sales/${id}/notification`)
-    .then(response => {
-        console.log("SUCESSO") 
-    });
+        .then(response => {
+            toast.info("SMS foi enviado com sucesso.")
+        });
 }
 
 
-function NotificationButton({saleId} : Props) {
+function NotificationButton({ saleId }: Props) {
     return (
         <div className="dsmeta-red-btn" onClick={() => handleClick(saleId)}>
             {/* informado entre as chaves a expressao "icon" */}
