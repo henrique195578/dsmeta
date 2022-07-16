@@ -11,7 +11,7 @@
 
 <br />
 
-### [](https://devsuperior.com.br/_next/static/images/dsmeta-41631156b3dbf65b60ce8e7f23f099e0.png) 🔥 Sobre o projeto
+### 🔥 Sobre o projeto
 
 Semana Spring React - Evento promovido pela escola DevSuperior.
 
