@@ -11,7 +11,7 @@
 
 <br />
 
-### [](https://github.com/henrique195578/dsmovie2/edit/main/README.md) 🔥 Sobre o projeto
+### []([https://github.com/henrique195578/dsmovie2/edit/main/README.md](https://devsuperior.com.br/_next/static/images/dsmeta-41631156b3dbf65b60ce8e7f23f099e0.png)) 🔥 Sobre o projeto
 
 Semana Spring React - Evento promovido pela escola DevSuperior.
 
