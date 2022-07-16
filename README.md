@@ -1,4 +1,4 @@
-# dsmeta# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Semana Spring React - treinamento gratuito
+![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Semana Spring React - treinamento gratuito
 >  *Crie um app completo para seu portfólio com as tecnologias mais demandadas do mercado*
 
 🌎 **Acesse agora:**
