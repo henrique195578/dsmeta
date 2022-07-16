@@ -1,7 +1,7 @@
 /* Import para que as */
 
-import Header from "./assets/Components/Header"
-import SalesCard from "./assets/Components/SalesCard"
+import Header from "./assets/Components/Header";
+import SalesCard from "./assets/Components/SalesCard";
 
 function App() {
     return (
@@ -22,4 +22,5 @@ function App() {
     )
 }
 
-export default App
+export default App;
+ 

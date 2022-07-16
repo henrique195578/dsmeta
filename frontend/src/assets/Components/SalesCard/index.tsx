@@ -1,7 +1,8 @@
 /*Realizar este comando antes "yarn add react-datepicker@4.8.0 @types/react-datepicker@4.4.2"
 Documentação: https://github.com/Hacker0x01/react-datepicker
 Informar o import do DatePicker linha 5,6. ABAIXO*/
-import { useState } from "react";
+import axios from "axios";
+import { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -19,6 +20,15 @@ const max = new Date();
     /* "setMinDate" Altera o estado ou seja altera a data do calendario */
     const [minDate, setMinDate] = useState(min);
     const [maxDate, setMaxDate] = useState(max);
+
+
+    useEffect(() => {
+        axios.get("http://localhost:8080/sales")
+        .then(response => {
+            console.log(response.data);
+        });
+    }, []);
+
 
     return (
 
