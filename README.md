@@ -6,7 +6,7 @@
 <a href="https://dsmetahenrique195578.netlify.app" target="_blank" title="acessar o site"><strong>https://dsmetahenrique195578.netlify.app</strong></a>
 
 <h1 style="padding: 50px; background: #333333;">
-    <img alt="site dsmovie" title="#site dsmovie" src="https://raw.githubusercontent.com/biacoelho/dsmovie-java-react-devsuperior/main/mobile-demo.png" width=360px/>
+    <img alt="site dsmovie" title="#site dsmovie" src="https://devsuperior.com.br/_next/static/images/dsmeta-41631156b3dbf65b60ce8e7f23f099e0.png" width=360px/>
 </h1>
 
 <br />
